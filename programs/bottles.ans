@@ -1,0 +1,17 @@
+S _bottles *9+92
+
+Func Printverse 1 {_a is the param}
+   `BBBBBBBBB
+    # _a
+    $ " bottles of beer on the wall, "
+    # _a
+    $ " bottles of beer." Nl
+    $ "Take one down and pass it around, "
+    # -_a 1
+    $ " bottles of beer on the wall." Nl Nl
+
+For _bottles 1
+   `Printverse _bottles
+
+$ "No more bottles of beer on the wall, no more bottles of beer." Nl
+$ "Go to the store and buy some more, 99 bottles of beer on the wall." Nl

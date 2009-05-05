@@ -1,0 +1,1 @@
+["on the wall\n"]n,[%." bottle"%1=~["s"]?" of beer "]d,[d@n@d@"\nTake one down, pass it around\n"1-d@n@"\n"%~[0?!]?q@]q,99q@

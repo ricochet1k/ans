@@ -1,0 +1,15 @@
+S_b" bottles of beer"
+S_w_b
+S_wLc_w" on the wall."
+S_bLc_b"."
+S_t"Take one down, pass it around,"
+S_*9+56S_n_
+F_1 `BBB
+  BB#_$_wN
+  BB#_$_bN
+  B$_tN
+  BBB#-_1$_wNN
+$"No"$_wN
+$"No"$_bN
+$"Go to the store, buy some more,"N
+#_n$_wN

@@ -1,0 +1,4 @@
+S _eof -01{*2+67 set eof to ascii 26}
+S_v'
+While !=_v_eof {while v != eof}
+	B$_vS_v' {Get v, print v}
